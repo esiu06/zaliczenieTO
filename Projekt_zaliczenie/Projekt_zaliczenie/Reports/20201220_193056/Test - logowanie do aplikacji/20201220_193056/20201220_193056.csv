@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test - logowanie do aplikacji,Chrome 87.0.4280.88,Logowanie do aplikacji,,2020-12-20 19:31:13,2020-12-20 19:31:43,"29,921s",PASSED
+,,,,,,,
+Test Cases/Wykonanie transakcji w walucie PLN/Logowanie do aplikacji/Logowanie od aplikacji z poprawnymi danymi,Chrome 87.0.4280.88,Logowanie do aplikacji Demobank,,2020-12-20 19:31:16,2020-12-20 19:31:43,"27,504s",PASSED
+openBrowser(rawUrl = url),Chrome 87.0.4280.88,,,2020-12-20 19:31:17,2020-12-20 19:31:31,"13,935s",PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2020-12-20 19:31:31,2020-12-20 19:31:33,"2,618s",PASSED
+"setText(findTestObject(""Object Repository/PageLogin/input.login.id""), user_id)",Chrome 87.0.4280.88,,,2020-12-20 19:31:33,2020-12-20 19:31:34,"0,805s",PASSED
+"click(findTestObject(""Object Repository/PageLogin/button_next""))",Chrome 87.0.4280.88,,,2020-12-20 19:31:34,2020-12-20 19:31:35,"0,570s",PASSED
+"setText(findTestObject(""Object Repository/PageLogin/input_password""), password)",Chrome 87.0.4280.88,,,2020-12-20 19:31:35,2020-12-20 19:31:36,"1,380s",PASSED
+"click(findTestObject(""Object Repository/PageLogin/button_next""))",Chrome 87.0.4280.88,,,2020-12-20 19:31:36,2020-12-20 19:31:37,"0,687s",PASSED
+"str_username_elem = getText(findTestObject(""Object Repository/PageDesktop/label_username""))",Chrome 87.0.4280.88,,,2020-12-20 19:31:37,2020-12-20 19:31:41,"4,081s",PASSED
+assert username_input == str_username_elem,Chrome 87.0.4280.88,,,2020-12-20 19:31:41,2020-12-20 19:31:41,"0,003s",PASSED
+"click(findTestObject(""Object Repository/PageDesktop/link_logout""))",Chrome 87.0.4280.88,,,2020-12-20 19:31:41,2020-12-20 19:31:42,"0,970s",PASSED
+closeBrowser(),Chrome 87.0.4280.88,,,2020-12-20 19:31:42,2020-12-20 19:31:43,"1,641s",PASSED

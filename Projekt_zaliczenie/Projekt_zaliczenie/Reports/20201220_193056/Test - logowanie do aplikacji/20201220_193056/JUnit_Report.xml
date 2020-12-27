@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test - logowanie do aplikacji" time="29.921" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Test - logowanie do aplikacji" tests="1" failures="0" errors="0" time="29.921" skips="0" timestamp="2020-12-20 19:31:13" hostname="DOM - DOM-HP" id="Test Suites/Test - logowanie do aplikacji">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\STUDIA INFORMATYKA\\SEMESTR V\\Testowanie oprogramowania\\Projekt_zaliczenie\\Projekt_zaliczenie\\Reports\\20201220_193056\\Test - logowanie do aplikacji\\20201220_193056"/>
+         <property name="logFiles" value="G:\\STUDIA INFORMATYKA\\SEMESTR V\\Testowanie oprogramowania\\Projekt_zaliczenie\\Projekt_zaliczenie\\Reports\\20201220_193056\\Test - logowanie do aplikacji\\20201220_193056\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DOM - DOM-HP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="169.254.10.212"/>
+         <property name="sessionId" value="b8032b8a35ecdd16efa177203c7b38ba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wykonanie transakcji w walucie PLN/Logowanie do aplikacji/Logowanie od aplikacji z poprawnymi danymi" time="27.504" classname="Test Cases/Wykonanie transakcji w walucie PLN/Logowanie do aplikacji/Logowanie od aplikacji z poprawnymi danymi" status="PASSED">
+         <system-out><![CDATA[2020-12-20 19:31:16 - [TEST_CASE][PASSED] - Test Cases/Wykonanie transakcji w walucie PLN/Logowanie do aplikacji/Logowanie od aplikacji z poprawnymi danymi: Test Cases/Wykonanie transakcji w walucie PLN/Logowanie do aplikacji/Logowanie od aplikacji z poprawnymi danymi
+
+2020-12-20 19:31:17 - [TEST_STEP][PASSED] - openBrowser(rawUrl = url): Browser is opened with url: 'https://demobank.jaktestowac.pl/'
+
+2020-12-20 19:31:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-20 19:31:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-20 19:31:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demobank.jaktestowac.pl/'
+
+2020-12-20 19:31:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-20 19:31:33 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-20 19:31:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PageLogin/input.login.id"), user_id): Text 'esiu0006' is set on object 'Object Repository/PageLogin/input.login.id'
+
+2020-12-20 19:31:34 - [MESSAGE][PASSED] - Text 'esiu0006' is set on object 'Object Repository/PageLogin/input.login.id'
+
+2020-12-20 19:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageLogin/button_next")): Object: 'Object Repository/PageLogin/button_next' is clicked on
+
+2020-12-20 19:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PageLogin/button_next' is clicked on
+
+2020-12-20 19:31:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PageLogin/input_password"), password): Text 'RigbBhfdqOBGNlJIWM1ClA==' is set on object 'Object Repository/PageLogin/input_password'
+
+2020-12-20 19:31:36 - [MESSAGE][PASSED] - Text 'RigbBhfdqOBGNlJIWM1ClA==' is set on object 'Object Repository/PageLogin/input_password'
+
+2020-12-20 19:31:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageLogin/button_next")): Object: 'Object Repository/PageLogin/button_next' is clicked on
+
+2020-12-20 19:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PageLogin/button_next' is clicked on
+
+2020-12-20 19:31:37 - [TEST_STEP][PASSED] - str_username_elem = getText(findTestObject("Object Repository/PageDesktop/label_username")): Text of object 'Object Repository/PageDesktop/label_username' is: 'Jan Demobankowy'
+
+2020-12-20 19:31:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageDesktop/label_username' is: 'Jan Demobankowy'
+
+2020-12-20 19:31:41 - [TEST_STEP][PASSED] - assert username_input == str_username_elem: null
+
+2020-12-20 19:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PageDesktop/link_logout")): Object: 'Object Repository/PageDesktop/link_logout' is clicked on
+
+2020-12-20 19:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PageDesktop/link_logout' is clicked on
+
+2020-12-20 19:31:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-20 19:31:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-20 19:31:13 - [TEST_SUITE][INCOMPLETE] - Test - logowanie do aplikacji: null]]></system-out>
+      <system-err><![CDATA[2020-12-20 19:31:13 - [TEST_SUITE][INCOMPLETE] - Test - logowanie do aplikacji: null]]></system-err>
+   </testsuite>
+</testsuites>
